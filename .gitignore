@@ -1,2 +1,12 @@
 .DS_Store
 .idea/
+/target/
+.classpath
+.project
+.settings/
+*.obj
+*.dot
+.idea
+*.class
+mallet.iml
+test/TEST-*.*
