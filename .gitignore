@@ -7,6 +7,5 @@
 *.obj
 *.dot
 .idea
-*.class
 mallet.iml
 test/TEST-*.*
