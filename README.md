@@ -28,6 +28,9 @@ Mallet implementation of Dynamic embedded Topic-Noise Discriminator (temporal em
 Mallet implementation of dynamic LDA, a.k.a. dynamic topic models (DTM).
 ***
 
+### Changelog
+- June 27, 2023: Fixed a bug in Mallet-GTM that resulted in seed topics being incorrectly loaded into the model.  Seed topic files should be comma-delimited.
+
 ### References
 1. A. K. McCallum, “Mallet: A machine learning for language toolkit.” 2002.
 2. David M. Blei, Andrew Y. Ng, and Michael I. Jordan. "Latent dirichlet allocation." Journal of Machine Learning Research, 3:993–1022, 3 2003.
