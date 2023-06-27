@@ -218,7 +218,7 @@ public class TopicTrainer {
 //                 logger.warning(delimiter);
 		        while(inSeedTopics.hasNext()) {
 		            String line = inSeedTopics.next();
-		            ArrayList<String> words = new ArrayList(Arrays.asList(line.split(" ")));
+		            ArrayList<String> words = new ArrayList(Arrays.asList(line.split(",")));
 		            if (words.size() > 0) {
 		                seeds.add(words);
 		            }

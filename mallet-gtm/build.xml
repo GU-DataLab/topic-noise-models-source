@@ -51,7 +51,7 @@
     name="compile"
     depends="init"
     description="Compile all the source files">
-    <javac
+    <javac includeantruntime="false"
       source="${java_version}"
       target="${java_version}"
       destdir="${class}"
